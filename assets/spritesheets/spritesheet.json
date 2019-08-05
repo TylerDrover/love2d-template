@@ -1,0 +1,180 @@
+{"frames": [
+
+{
+	"filename": "model0.png",
+	"frame": {"x":181,"y":976,"w":181,"h":202},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":202},
+	"sourceSize": {"w":181,"h":202}
+},
+{
+	"filename": "model1.png",
+	"frame": {"x":181,"y":607,"w":181,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":179},
+	"sourceSize": {"w":181,"h":179}
+},
+{
+	"filename": "model2.png",
+	"frame": {"x":182,"y":450,"w":181,"h":157},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":157},
+	"sourceSize": {"w":181,"h":157}
+},
+{
+	"filename": "model3.png",
+	"frame": {"x":0,"y":306,"w":181,"h":135},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":135},
+	"sourceSize": {"w":181,"h":135}
+},
+{
+	"filename": "model4.png",
+	"frame": {"x":181,"y":193,"w":181,"h":113},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":113},
+	"sourceSize": {"w":181,"h":113}
+},
+{
+	"filename": "model6.png",
+	"frame": {"x":181,"y":786,"w":181,"h":190},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":190},
+	"sourceSize": {"w":181,"h":190}
+},
+{
+	"filename": "powerplant1_NE.png",
+	"frame": {"x":0,"y":786,"w":181,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":180},
+	"sourceSize": {"w":181,"h":180}
+},
+{
+	"filename": "powerplant1_NW.png",
+	"frame": {"x":181,"y":306,"w":181,"h":144},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":144},
+	"sourceSize": {"w":181,"h":144}
+},
+{
+	"filename": "powerplant1_SE.png",
+	"frame": {"x":0,"y":976,"w":181,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":193},
+	"sourceSize": {"w":181,"h":193}
+},
+{
+	"filename": "powerplant1_SW.png",
+	"frame": {"x":0,"y":607,"w":181,"h":157},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":157},
+	"sourceSize": {"w":181,"h":157}
+},
+{
+	"filename": "road.png",
+	"frame": {"x":46,"y":0,"w":90,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":46},
+	"sourceSize": {"w":90,"h":46}
+},
+{
+	"filename": "road3.png",
+	"frame": {"x":0,"y":47,"w":91,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":47},
+	"sourceSize": {"w":91,"h":47}
+},
+{
+	"filename": "road_NE.png",
+	"frame": {"x":182,"y":47,"w":91,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":47},
+	"sourceSize": {"w":91,"h":47}
+},
+{
+	"filename": "road_NW.png",
+	"frame": {"x":227,"y":0,"w":91,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":47},
+	"sourceSize": {"w":91,"h":47}
+},
+{
+	"filename": "road_SE.png",
+	"frame": {"x":136,"y":0,"w":91,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":47},
+	"sourceSize": {"w":91,"h":47}
+},
+{
+	"filename": "road_SW.png",
+	"frame": {"x":91,"y":47,"w":91,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":47},
+	"sourceSize": {"w":91,"h":47}
+},
+{
+	"filename": "tile_base.png",
+	"frame": {"x":181,"y":94,"w":181,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":99},
+	"sourceSize": {"w":181,"h":99}
+},
+{
+	"filename": "tile_cross.png",
+	"frame": {"x":0,"y":193,"w":181,"h":102},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":102},
+	"sourceSize": {"w":181,"h":102}
+},
+{
+	"filename": "tile_flat.png",
+	"frame": {"x":0,"y":94,"w":181,"h":92},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":92},
+	"sourceSize": {"w":181,"h":92}
+},
+{
+	"filename": "tile_small.png",
+	"frame": {"x":0,"y":0,"w":46,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":26},
+	"sourceSize": {"w":46,"h":26}
+},
+{
+	"filename": "waterpump.model1_0.png",
+	"frame": {"x":0,"y":450,"w":182,"h":149},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":182,"h":149},
+	"sourceSize": {"w":182,"h":149}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "spritesheet.png",
+	"format": "RGBA8888",
+	"size": {"w":363,"h":1178},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:baee19a48e3f767efb8681446e3852b5:6271c45da0084db39e7e222c851816b5:729adc6043343cfda41c447ce8f464d6$"
+}
+}
