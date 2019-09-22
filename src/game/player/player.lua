@@ -4,7 +4,6 @@ function player:load()
 
 end
 
-
 function player:update(dt)
 
 end

@@ -1,7 +1,9 @@
 local font = 'assets/fonts/Raleway-Medium.ttf'
 local fontb = 'assets/fonts/Raleway-Bold.ttf'
 
-fonts = {
+fonts  = {}
+
+function fonts.load()
     large    = love.graphics.newFont(font, 36)
     medlarge = love.graphics.newFont(font, 28)
     med      = love.graphics.newFont(font, 24)
@@ -26,4 +28,6 @@ fonts = {
     med_b:setFilter( "nearest", "nearest" )
     smallmed_b:setFilter( "nearest", "nearest" )
     small_b:setFilter( "nearest", "nearest" )
-}
+end
+
+return fonts

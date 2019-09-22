@@ -1,18 +1,21 @@
 states = {}
 
+require('src.input')
+require('assets.fonts')
+require('assets.colors')
+
 splash = require('src.splash.state')
 menu = require('src.menu.state')
 game = require('src.game.state')
-require('src.input')
 
 local state
 
 function states:load()
     log.debug('Loading States...')
-    mouse = true
-
-    state = splash
     input:load()
+    fonts.load()
+    
+    state = splash
     state:load()
 end
 
