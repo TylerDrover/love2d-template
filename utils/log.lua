@@ -20,7 +20,7 @@ end
 
 function log.screen(msg, x, y, w)
     if DEBUG then
-        love.graphics.setColor(1,0,1,1)
+        love.graphics.setColor(1,1,1,1)
         love.graphics.print(msg, x, y)
     end
 end

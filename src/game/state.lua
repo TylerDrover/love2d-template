@@ -32,6 +32,10 @@ end
 function state:draw()
     world:draw()
     player:draw()
+
+    love.graphics.setFont(fonts.small)
+    local stats = love.graphics.getStats()
+    log.screen('Current FPS: '..tostring(love.timer.getFPS( ))..'\nMem: '..math.ceil(stats.texturememory/1000)..'kb', 20, 20, 150, 2)
 end
 
 return state

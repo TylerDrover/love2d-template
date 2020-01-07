@@ -4,30 +4,20 @@ local fontb = 'assets/fonts/Raleway-Bold.ttf'
 fonts  = {}
 
 function fonts.load()
-    large    = love.graphics.newFont(font, 36)
-    medlarge = love.graphics.newFont(font, 28)
-    med      = love.graphics.newFont(font, 24)
-    smallmed = love.graphics.newFont(font, 18)
-    small    = love.graphics.newFont(font, 12)
+    fonts.large    = love.graphics.newFont(font, 30)
+    fonts.med      = love.graphics.newFont(font, 20)
+    fonts.small    = love.graphics.newFont(font, 10)
+    fonts.large:setFilter( "nearest", "nearest" )
+    fonts.med:setFilter( "nearest", "nearest" )
+    fonts.small:setFilter( "nearest", "nearest" )
 
     --Bold
-    large_b    = love.graphics.newFont(fontb, 36)
-    medlarge_b = love.graphics.newFont(fontb, 28)
-    med_b      = love.graphics.newFont(fontb, 24)
-    smallmed_b = love.graphics.newFont(fontb, 18)
-    small_b    = love.graphics.newFont(fontb, 12)
-
-    large:setFilter( "nearest", "nearest" )
-    medlarge:setFilter( "nearest", "nearest" )
-    med:setFilter( "nearest", "nearest" )
-    smallmed:setFilter( "nearest", "nearest" )
-    small:setFilter( "nearest", "nearest" )
-
-    large_b:setFilter( "nearest", "nearest" )
-    medlarge_b:setFilter( "nearest", "nearest" )
-    med_b:setFilter( "nearest", "nearest" )
-    smallmed_b:setFilter( "nearest", "nearest" )
-    small_b:setFilter( "nearest", "nearest" )
+    fonts.large_bold    = love.graphics.newFont(fontb, 30)
+    fonts.med_bold      = love.graphics.newFont(fontb, 20)
+    fonts.small_bold    = love.graphics.newFont(fontb, 10)
+    fonts.large_bold:setFilter( "nearest", "nearest" )
+    fonts.med_bold:setFilter( "nearest", "nearest" )
+    fonts.small_bold:setFilter( "nearest", "nearest" )
 end
 
 return fonts

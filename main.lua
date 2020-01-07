@@ -54,8 +54,11 @@ end
 
 function love.keypressed(key)
     -- Force Quit --
-    if key == '`' then
+    if key == 'q' then
        love.unload()
+    end
+    if key == 'p' then
+        love.graphics.captureScreenshot('screenshots/'..os.time()..'.png')
     end
     states:keypressed(key)
  end
